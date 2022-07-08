@@ -1,0 +1,43 @@
+-
+  ros1_package_name: 'vision_msgs'
+  ros2_package_name: 'vision_msgs'
+
+  ros1_message_name: 'Detection2D'
+  ros2_message_name: 'Detection2D'
+
+  fields_1_to_2:
+    header: 'header'
+    bbox: 'bbox'
+    results: 'results'
+
+-
+  ros1_package_name: 'vision_msgs'
+  ros2_package_name: 'vision_msgs'
+
+  ros1_message_name: 'Detection3D'
+  ros2_message_name: 'Detection3D'
+
+  fields_1_to_2:
+    header: 'header'
+    bbox: 'bbox'
+    results: 'results'
+
+-
+  ros1_package_name: 'vision_msgs'
+  ros2_package_name: 'vision_msgs'
+
+  ros1_message_name: 'ObjectHypothesis'
+  ros2_message_name: 'ObjectHypothesis'
+
+  fields_1_to_2:
+    score: 'score'
+
+-
+  ros1_package_name: 'vision_msgs'
+  ros2_package_name: 'vision_msgs'
+
+  ros1_message_name: 'ObjectHypothesisWithPose'
+  ros2_message_name: 'ObjectHypothesisWithPose'
+
+  fields_1_to_2:
+    pose: 'pose'
